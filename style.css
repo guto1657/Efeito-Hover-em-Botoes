@@ -110,3 +110,19 @@ body {
 .btn5:hover::before {
     height: 350%;
 }
+
+/* ----------------- responsivo ----------------- */
+
+@media(max-width: 700px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin: 20px 15px;
+        padding: 10px 35px;
+    }
+
+
+}
